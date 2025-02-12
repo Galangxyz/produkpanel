@@ -11,10 +11,10 @@
     >
       <div class="flex container justify-between mx-auto items-center">
         <div class="flex items-center gap-20 lg:gap-10 xl:gap-20">
-          <div class="flex gap-2 items-center">
-            <h1 class="font-Sawa font-medium text-xl text-paleBlue">AdoptMe</h1>
-            <img :src="logo" alt="paw" />
-          </div>
+<div class="flex gap-2 items-center">
+  <h1 class="font-Sawa font-medium text-xl text-paleBlue">Langz</h1>
+  <i class="fa-solid fa-code text-3xl text-paleBlue"></i>
+</div>
           <ul class="hidden lg:flex gap-10 xl:gap-12 lg:mt-[2px]">
             <li @click.prevent>
               <a
@@ -57,7 +57,7 @@
                         @click="scrollToAbout"
                         class="text-lg text-paleBlue group-hover:text-slate-500 duration-200 ease-in-out font-Sawa"
                       >
-                        Cats
+                        Panels
                       </p>
                     </span>
                     <span class="flex gap-3 group items-center">
@@ -68,7 +68,7 @@
                         @click="scrollToAbout"
                         class="text-lg text-paleBlue group-hover:text-slate-500 duration-200 ease-in-out font-Sawa"
                       >
-                        Dogs
+                        Scripts
                       </p>
                     </span>
                   </div>
@@ -100,63 +100,33 @@
           </ul>
         </div>
         <div class="relative z-50">
-          <ul class="lg:flex hidden mt-[2px] items-center gap-7 xl:gap-9">
-            <div
-              class="cursor-pointer active:scale-[.90] transition duration-300 ease-in-out"
-            >
-              <img :src="searchGlass" alt="search glass" />
-            </div>
-            <li
-              @click.prevent
-              class="active:scale-[.90] transition duration-300 ease-in-out"
-            >
-              <a
-                href="#"
-                class="font-medium block font-Sawa text-center text-paleBlue"
-                >Sign in</a
-              >
-            </li>
-            <button
-              type="button"
-              class="px-7 py-2 rounded-sm font-medium text-white bg-paleBlue active:scale-[.90] transition duration-300 ease-in-out hover:bg-slate-500"
-            >
-              Sign up
-            </button>
-          </ul>
-          <button @click="toggleNav" class="block lg:hidden focus:outline-none">
-            <img :src="burgerMenu" alt="burger" ref="burger" />
-          </button>
-        </div>
+  <ul class="lg:flex hidden mt-[2px] items-center gap-7 xl:gap-9">
+    <div
+      class="cursor-pointer active:scale-[.90] transition duration-300 ease-in-out"
+    >
+      <img :src="searchGlass" alt="search glass" />
+    </div>
+  </ul>
+  <button @click="toggleNav" class="block lg:hidden focus:outline-none">
+    <img :src="burgerMenu" alt="burger" ref="burger" />
+  </button>
+</div>
 
-        <!-- mobile nav -->
-        <ul
-          :class="showMenu ? 'right-0 grid' : 'right-[-100%] grid opacity-0'"
-          class="h-screen w-[60%] md:w-1/2 fixed duration-500 lg:hidden ease-in-out content-center space-y-8 md:space-y-12 top-0 right-0 pl-[1.19rem] xs:pl-6 bg-gradient-to-b from-linearBlue to-white md:pl-12 shadow-xl"
-        >
-          <li v-for="(link, index) in links" :key="index">
-            <a :href="link.href" class="text-colorNav font-medium md:text-lg">{{
-              link.label
-            }}</a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="font-medium block font-Sawa text-center text-paleBlue"
-              >Sign in</a
-            >
-          </li>
-          <li class="text-center">
-            <a
-              href="#"
-              class="text-white bg-paleBlue rounded-sm font-Sawa md:py-3 px-7 md:px-20 xs:px-12 py-2 font-medium"
-              >Sign up</a
-            >
-          </li>
-        </ul>
-        <div
-          :class="showMenu ? 'left-0 opacity-100' : 'left-[-100%] opacity-0'"
-          class="bg-black/60 lg:hidden md:w-1/2 left-0 z-50 duration-500 ease-in-out fixed top-0 w-[40%] h-screen"
-        ></div>
+<!-- mobile nav -->
+<ul
+  :class="showMenu ? 'right-0 grid' : 'right-[-100%] grid opacity-0'"
+  class="h-screen w-[60%] md:w-1/2 fixed duration-500 lg:hidden ease-in-out content-center space-y-8 md:space-y-12 top-0 right-0 pl-[1.19rem] xs:pl-6 bg-gradient-to-b from-linearBlue to-white md:pl-12 shadow-xl"
+>
+  <li v-for="(link, index) in links" :key="index">
+    <a :href="link.href" class="text-colorNav font-medium md:text-lg">{{
+      link.label
+    }}</a>
+  </li>
+</ul>
+<div
+  :class="showMenu ? 'left-0 opacity-100' : 'left-[-100%] opacity-0'"
+  class="bg-black/60 lg:hidden md:w-1/2 left-0 z-50 duration-500 ease-in-out fixed top-0 w-[40%] h-screen"
+></div>
       </div>
     </nav>
   </header>
@@ -191,9 +161,9 @@ onUnmounted(() => {
 
 const links = [
   { label: "Home", href: "#" },
-  { label: "Community", href: "#" },
-  { label: "Stories with pet", href: "#" },
-  { label: "FAQ", href: "#" },
+  { label: "Blog", href: "https://code.mataberita.com" },
+  { label: "Product", href: "#pet-lists" },
+  { label: "FAQ", href: "#accordions" },
 ];
 
 // animasi dropdown

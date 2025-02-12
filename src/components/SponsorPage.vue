@@ -23,7 +23,7 @@
           {{ sponsorDetails[0].desc }}
         </p>
         <a
-          href="#"
+          href="https://wa.me/6283833735020?text=Halo,%20saya%20tertarik%20dengan%20jasa%20Encrypt%20dan%20Remark%20Script."
           class="px-8 py-4 bg-paleBlue font-Sawa inline-block text-white rounded transition duration-300 ease-in-out hover:bg-slate-500"
           >{{ sponsorDetails[0].button }}</a
         >

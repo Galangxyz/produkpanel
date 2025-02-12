@@ -8,7 +8,7 @@
         class="text-base text-secondBlack font-Inter md:text-lg mb-5 md:mb-0 font-semibold"
       >
         <i class="fa-regular fa-copyright text-secondBlack text-xl"></i>
-        Copyright 2023. Adoptme
+        Copyright 2025. Langz
       </h3>
       <h3
         class="text-base text-secondBlack font-Inter md:text-lg font-semibold"
@@ -16,11 +16,11 @@
         <i
           class="fa-brands fa-whatsapp text-secondBlack font-semibold text-xl"
         ></i>
-        (62)82134063564 |
+        (62)3833785020 |
         <i
           class="fa-regular fa-envelope text-xl font-semibold text-secondBlack"
         ></i>
-        adoptme@gmail.com
+        fplang@gmail.com
       </h3>
     </div>
   </div>

@@ -35,14 +35,15 @@ import logo1 from "./assets/logo1.svg";
 import logo2 from "./assets/logo2.svg";
 import logo3 from "./assets/logo3.svg";
 import logo4 from "./assets/logo4.svg";
-import cat1 from "./assets/cat1.jpg";
-import cat2 from "./assets/cat2.jpg";
-import cat3 from "./assets/cat3.jpg";
-import cat4 from "./assets/cat4.jpg";
-import dog1 from "./assets/dog1.jpg";
-import dog2 from "./assets/dog2.jpg";
-import dog3 from "./assets/dog4.jpg";
-import dog4 from "./assets/dog5.jpg";
+import panel1 from "./assets/panel1.jpg";
+import panel2 from "./assets/panel2.jpg";
+import panel3 from "./assets/panel3.jpg";
+import panel4 from "./assets/panel4.jpg";
+
+import script1 from "./assets/script1.jpg";
+import script2 from "./assets/script2.jpg";
+import script3 from "./assets/script3.jpg";
+import script4 from "./assets/script4.jpg";
 const heroImages = [
   {
     src: heroImage,
@@ -69,88 +70,90 @@ const aboutImage = [
   {
     src: dogscats,
     alt: "dogscats image",
-    titleHeader: "OUR MISSION FOR PET",
-    title: " Let's Choose and Adopt your New Lovely Pet",
-    desc: "You need to see some pets in Adoptme. We have the friend that's you need to have. We also have the equipment you need to take care of it.",
-    communityHeader: "ADOPTME COMMUNITY",
-    communityTitle: "Connect with adoptme across the country",
+    titleHeader: "About Panel Pterodactyl",
+    title: " Performa Stabil, Garansi Aman",
+    desc: "Didesain khusus untuk kebutuhan server hosting yang stabil, mudah digunakan, dan efisien dalam manajemen sumber daya.",
+    communityHeader: "Profit Use Panel Pterodactyl",
+    communityTitle: "Kelola Server Tanpa Ribet",
     communityDesc:
-      "AdoptMe Community Uniting hearts, fostering bonds. Pet adoption advocates, diverse family, shared joy. Rescuing lives, creating smiles, caring network. Join us, embrace the joy of adoption!",
-    countOne: 500,
-    countOneDetail: "Volunteers",
-    countTwo: 2500,
-    countTwoDetail: "Dogs Rescues",
-    countThree: 3000,
-    countThreeDetail: "Cats Rescues",
+      "Dapatkan kemudahan dalam mengelola server game, bot, dan berbagai aplikasi dengan sistem yang efisien dan scalable.",
+    countOne: 50,
+    countOneDetail: "Server Aktif",
+    countTwo: 70,
+    countTwoDetail: "Pengguna Terdaftar",
+    countThree: 90,
+    countThreeDetail: "Jam Dukungan Teknis",
   },
 ];
 const petImages = [
+  // Panel
   {
-    src: cat1,
-    alt: "cat",
-    name: "Sumbul",
-    old: "1 Years old",
-    waiting: "21 Days Waiting",
+    src: panel1,
+    alt: "panel",
+    name: "Ram 1Gb",
+    old: "Garansi 14 Days",
+    waiting: "Rp.2.000",
   },
   {
-    src: cat2,
-    alt: "cat",
-    name: "Ed Sheeran Jr",
-    old: "2 Months old",
-    waiting: "15 Days Waiting",
+    src: panel2,
+    alt: "panel",
+    name: "Ram 2Gb",
+    old: "Garansi 14 Days",
+    waiting: "Rp.3.000",
   },
   {
-    src: dog4,
-    alt: "dog",
-    name: "Rusdi",
-    old: "3 Years old",
-    waiting: "10 Days Waiting",
+    src: panel3,
+    alt: "panel",
+    name: "Ram 3Gb",
+    old: "Garansi 14 Days",
+    waiting: "Rp.4.000",
   },
   {
-    src: dog1,
-    alt: "dog",
-    name: "Faiz",
-    old: "1.5 Years old",
-    waiting: "7 Days Waiting",
-  },
-  {
-    src: cat3,
-    alt: "cat",
-    name: "Dimas",
-    old: "1 Months old",
-    waiting: "5 Days Waiting",
-  },
-  {
-    src: cat4,
-    alt: "cat",
-    name: "Farel",
-    old: "6 Months old",
-    waiting: "3 Days Waiting",
+    src: panel4,
+    alt: "panel",
+    name: "Ram Unlimited",
+    old: "Garansi 14 Day",
+    waiting: "Rp.5.000",
   },
 
+  // Script
   {
-    src: dog2,
-    alt: "dog",
-    name: "Rehan",
-    old: "3 Years old",
-    waiting: "30 Days Waiting",
+    src: script4,
+    alt: "script",
+    name: "Egg Support Console",
+    old: "Full Instalasi",
+    waiting: "Rp.5.000",
   },
   {
-    src: dog3,
-    alt: "dog",
-    name: "Shelby",
-    old: "2 Years old",
-    waiting: "24 Days Waiting",
+    src: script1,
+    alt: "script",
+    name: "Tokoh Api Script",
+    old: "Version 1.0",
+    waiting: "Rp.20.000",
+  },
+  {
+    src: script2,
+    alt: "script",
+    name: "Create Panel Script",
+    old: "Version 1.0",
+    waiting: "Rp.15.000",
+  },
+  {
+    src: script3,
+    alt: "script",
+    name: "Jasa Install Pterodactyl",
+    old: "Full Instalasi",
+    waiting: "Rp.10.000",
   },
 ];
 const sponsorDetails = [
   {
     src: sponsorImg,
     alt: "sponsor img",
-    titleHead: "STORIES WITH PET",
-    title: "Sponsoring your pet before adopt",
-    desc: "Your contributions mean a lot to the pets at Adopt Me. Your support creates hope and well-being for them all",
-    button: "Sponsor now",
+    titleHead: "Encrypt && Remark",
+    title: "JASA ENCRYPT & REMARK SCRIPT",
+    desc: "Dapatkan jasa encrypt dan remark script dengan harga terjangkau, memastikan keamanan serta efisiensi terbaik untuk kebutuhan Anda.",
+    button: "Order now",
   },
 ];
 </script>

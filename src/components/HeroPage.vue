@@ -13,11 +13,9 @@
           id="hero-title"
           class="font-Inter text-2xl tracking-wide md:max-w-[40rem] xl:max-w-2xl xl:leading-snug xl:text-5xl lg:max-w-sm lg:leading-normal leading-relaxed md:text-4xl text-paleBlue font-semibold mb-4"
         >
-          Let's Choose and
-          <i
-            class="fa-solid fa-paw text-4xl xl:text-5xl rotate-45 text-paleBlue ml-1"
-          ></i>
-          Adopt your new Pet
+          Panel Pterodactyl
+<i class="fa-solid fa-code text-4xl xl:text-5xl text-paleBlue ml-1"></i>
+          Performa Stabil, Garansi Aman!
         </h1>
         <p
           id="hero-desc"
@@ -25,14 +23,14 @@
         ></p>
         <div class="flex gap-4 mb-7" id="button">
           <a
-            href="#"
+            href="#pet-lists"
             class="px-4 xs:px-6 md:px-8 py-3 bg-paleBlue font-Sawa block text-white rounded transition duration-300 ease-in-out hover:bg-slate-500"
-            >Adopt now</a
+            >Buy Now</a
           >
           <a
-            href="#"
+            href="https://panel.mataberita.com"
             class="px-4 xs:px-6 md:px-8 py-3 text-paleBlue font-Sawa block"
-            >Donate for food</a
+            >Preview Panel</a
           >
         </div>
         <div>
@@ -40,7 +38,7 @@
             class="uppercase font-Sawa font-semibold text-paleBlue text-sm md:text-base mb-3"
             id="paragraph-hero"
           >
-            supported by:
+            benefit :
           </p>
           <div class="grid grid-cols-4 max-w-sm" id="hero-logo">
             <img
@@ -90,7 +88,7 @@ onMounted(() => {
     duration: 3.5,
     ease: "power1.in",
     delay: 2.5,
-    text: "Adopt a pet, give them the best treatment, and you will feel really happy of friendship with your pet.",
+    text: "Dapatkan panel Pterodactyl murah dengan performa terbaik! Tersedia pilihan RAM 1GB, 2GB, 3GB, hingga Unlimited. Garansi terjamin, uptime stabil, dan dukungan teknis siap membantu. Cocok untuk hosting game, bot, dan berbagai kebutuhan server lainnya!",
   });
 
   gsap.from("#button", {

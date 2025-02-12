@@ -9,12 +9,12 @@
       <h1
         class="text-secondBlack text-2xl font-semibold md:text-3xl xl:max-w-md mx-auto xl:leading-relaxed lg:text-4xl font-Inter mb-5"
       >
-        Adopt the pet that has waited too long
+        FAQ 
       </h1>
       <p
         class="text-secondGray font-Sawa text-base md:max-w-md mx-auto lg:text-xl md:text-lg mb-8"
       >
-        What are you waiting for? they need your help for their better lives!
+        Apa yang kamu tunggu? Gunakan panel Pterodactyl untuk manajemen server yang lebih optimal! Selain itu, kami juga menyediakan layanan encrypt script, remark script, script bot WhatsApp MD, serta berbagai produk digital berkualitas lainnya.
       </p>
     </div>
     <div
@@ -68,37 +68,37 @@ import { ref, onMounted } from "vue";
 import gsap from "gsap";
 const accordionItems = ref([
   {
-    title: "How to adopt a pet?",
+    title: "Apa itu panel Pterodactyl?",
     content:
-      "Create a user account in AdoptMe. Once finished, you can choose which animal you want to adopt in the adopt list.",
+      "Pterodactyl adalah panel manajemen server open-source yang dirancang khusus untuk mengelola server game dan aplikasi lainnya. Dengan antarmuka berbasis web yang user-friendly, Pterodactyl mempermudah pengelolaan server tanpa harus menggunakan command line secara langsung.",
     show: false,
   },
   {
-    title: "How to adopt a cats?",
+    title: "Bagaimana cara menginstal Pterodactyl?",
     content:
-      "You just have to choose the cat you like and want to adopt from the pet list.",
+      "Menyiapkan server dengan sistem operasi berbasis Linux (Ubuntu/Debian lebih direkomendasikan).  Menginstal Docker & dependencies yang dibutuhkan. Menginstal panel Pterodactyl dengan menjalankan. perintah yang tersedia di dokumentasi resminya. Menambahkan daemon Wings agar server dapat dikelola dengan baik. Mengonfigurasi server & database sesuai kebutuhan.",
     show: false,
   },
   {
-    title: "How to adopt a dogs?",
+    title: "Apa saja fitur unggulan dari Pterodactyl?",
     content:
-      "You just have to choose the dog you like and want to adopt from the pet list.",
+      "Manajemen server berbasis web dengan tampilan yang mudah digunakan. Dukungan multi-user untuk mengelola server dengan tim. Isolasi server menggunakan Docker untuk keamanan yang lebih baik. API yang kuat, memungkinkan integrasi dengan sistem lain. Dukungan untuk berbagai jenis server seperti Minecraft, Whatsapp Bot, FiveM, dan lainnya.",
     show: false,
   },
   {
-    title: "How much does it cost to adopt an animal?",
-    content: "It depends on the type and age of the animal.",
+    title: "Apa itu Script Bot WhatsApp MD?",
+    content: "Script Bot WhatsApp MD adalah kode yang memungkinkan kamu membuat bot WhatsApp Multi-Device (MD) yang bisa berjalan di WhatsApp Web menggunakan Baileys atau library serupa. Bot ini bisa menjalankan perintah otomatis seperti autoreply, download media, dan lainnya.",
     show: false,
   },
   {
-    title: "Does AdoptMe sell animals other than cats and dogs?",
-    content: "No, AdoptMe does not sell animals other than cats and dogs.",
+    title: "Apa itu encrypt script?",
+    content: "Encrypt script adalah proses mengamankan kode sumber dengan cara mengubahnya menjadi bentuk yang lebih sulit dibaca oleh manusia, sehingga sulit untuk dicuri atau dimodifikasi oleh pihak yang tidak berwenang.",
     show: false,
   },
   {
-    title: "Is there a special animal clinic at Adopt Me?",
+    title: "Apa itu remark script?",
     content:
-      "Yes, there is a special clinic to handle the care of cats and dogs at AdoptMe.",
+      "Remark script adalah proses pembersihan dan perbaikan kode dengan menambahkan komentar, merapikan struktur, serta meningkatkan efisiensi tanpa mengubah fungsionalitasnya.",
     show: false,
   },
 ]);
